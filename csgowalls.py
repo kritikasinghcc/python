@@ -3,11 +3,11 @@ import pymem.process
 import keyboard
 import win32gui
 
-dwEntityList = (0x4DA21AC)
-dwLocalPlayer = (0xD892CC)
+dwEntityList = (0x4DBC5B4)
+dwLocalPlayer = (0xDA244C)
 m_iTeamNum = (0xF4)
-dwGlowObjectManager = (0x52EA640)
-m_iGlowIndex = (0xA438)
+dwGlowObjectManager = (0x5304AC0)
+m_iGlowIndex = (0x10488)
 
 def main():
 	pm = pymem.Pymem("csgo.exe")
